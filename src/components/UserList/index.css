@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+  .table-total {
+    min-width: 360px;
+  }
+  .edit-btn {
+    padding: 2px 6px 2px 6px;
+    margin-right: 6px;
+    border: 2px solid #a8a5a5;
+    border-radius: 30px;
+    color: rgb(2, 38, 107);
+    background: #fff;
+  }
+  .delete-btn {
+    padding: 2px 6px 2px 6px;
+    margin-left: 6px;
+    border: 2px solid #04696e;
+    border-radius: 10px;
+    color: rgb(64, 0, 128);
+    background: #fff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .edit-btn {
+    padding: 2px 10px 2px 10px;
+    margin-right: 10px;
+    border: 2px solid #a8a5a5;
+    border-radius: 40px;
+    color: rgb(2, 38, 107);
+    background: #fff;
+  }
+  .delete-btn {
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+    border: 2px solid #04696e;
+    border-radius: 20px;
+    color: rgb(64, 0, 128);
+    background: #fff;
+  }
+}

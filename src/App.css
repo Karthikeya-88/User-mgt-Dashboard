@@ -1,3 +1,13 @@
+* {
+  color: #fff;
+  background: #e6e5e5;
+}
+
+h2 {
+  text-decoration: underline;
+  color: #000;
+}
+
 .App {
   text-align: center;
 }
@@ -34,5 +44,44 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.user-heading {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 100vw;
+  }
+  .user-heading {
+    font-size: 24px;
+  }
+  .add-user {
+    border: 2px solid orange;
+    background: #3d3587;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .user-heading {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .add-user {
+    border: 2px solid orange;
+    background: #3d3587;
+    border-radius: 10px;
+    margin-left: 40px;
   }
 }
